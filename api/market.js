@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+// export default async function handler(req, res) {
   try {
     const server = req.query.server || "0";
 
@@ -23,4 +23,4 @@ export default async function handler(req, res) {
       message: e.message
     });
   }
-}
+// }
